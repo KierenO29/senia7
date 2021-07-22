@@ -1,0 +1,165 @@
+#wrapper {
+
+background-color: black;
+width:70%;
+margin:auto;
+border: 4px solid #000000;
+padding: 20px;
+background: hsla(0,0%,100%,0.90); 
+  
+				                 <!--This will centre the webpage and wrap the text-->
+}
+
+
+ul#social{
+
+list-style-type: none;              <!--This will remove the bullet points from the socials icons-->
+display:block;
+}
+
+
+ul#social li {
+float: left;                       <!--This will make the icons float next to eachother-->
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+ position: relative;
+}
+
+
+
+
+ul#social li img {
+  height: auto;
+  width:20%;
+  margin: auto;
+  display: block;
+ 
+}
+  
+
+
+#slider img {
+	width: 100%
+}
+
+#hero img {
+	width: 100%
+}
+
+h1#title 
+{ text-align: centre;
+  font-size: 88px;
+  display: inline;
+  color: #A020F0;
+
+  vertical-align: bottom;
+
+}
+
+nav ul {                          /*This will create a navigation bar with the links to the other pages-->*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black
+ ;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #CCCCFF;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #111;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:#CCCCFF;
+  padding: 5px;
+}
+.grid-item {
+  background-color:rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+body {
+
+background: url('../images/Background.jpg');
+height:200%;
+
+margin: 0;
+padding: 5px;
+border: 2px solid #CCCCFF;
+}
+
+
+h2 {                         <!--This will change the characteristics of the headings-->
+  
+  font-size: 46px;   
+  color: #A020F0
+
+  
+
+}
+
+
+h3 {
+  
+  font-size: 46px;
+  color: #A020F0
+
+
+}
+
+
+p {
+
+font-size:24px;
+color : #A020F0
+
+}
+
+
+{
+font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+
+
+p#privacy{
+  
+font-size:16px;
+
+}
+
+p#access{
+  
+font-size:16px;
+
+}
+
+
